@@ -76,7 +76,7 @@ if os.path.exists(path+"\BepInEx\plugins") == False:
     
 # Download config file
 print("Downloading config file...")
-url = 'https://cdn.discordapp.com/attachments/1126947705244106812/1237494739188846642/BepInEx.cfg?ex=66431a89&is=6641c909&hm=1639609d2b15f1a5d392c25f212579ac9b0d0ce8872a67ae4823310c8859f23b&'
+url = 'https://raw.githubusercontent.com/AspectGTAG/Gorilla-Tag-mod-fixer/main/fixed_BepInEx.cfg'
 r = requests.get(url, allow_redirects=True)
 
 # Write data onto file
